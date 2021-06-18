@@ -55,6 +55,7 @@ document.querySelector('.check').addEventListener('click', () => {
       displayfunction(guess > secretNumber ? '📈Too High.' : '📉Too Low.');
       score--;
     } else {
+      score = 0;
       displayfunction('☠ You Lost.');
       document.querySelector('body').style.backgroundColor = '#E8354D';
     }
