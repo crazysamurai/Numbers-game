@@ -51,7 +51,7 @@ document.querySelector('.check').addEventListener('click', () => {
     //when the number is different
   } else if (guess !== secretNumber) {
     messageColor('rgb(219, 223, 0)');
-    if (score >= 1) {
+    if (score >1) {
       displayfunction(guess > secretNumber ? '📈Too High.' : '📉Too Low.');
       score--;
     } else {
