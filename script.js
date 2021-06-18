@@ -52,7 +52,7 @@ document.querySelector('.check').addEventListener('click', () => {
   } else if (guess !== secretNumber) {
     messageColor('rgb(219, 223, 0)');
     displayfunction(guess > secretNumber ? '📈Too High.' : '📉Too Low.');
-    if (score >= 1) {
+    if (score > 1) {
       score--;
     } else {
       displayfunction('☠ You Lost.');
