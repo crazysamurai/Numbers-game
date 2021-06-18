@@ -78,4 +78,5 @@ document.querySelector('.again').addEventListener('click', () => {
   document.querySelector('.number').textContent = '?';
 
   document.querySelector('.number').style.width = '15rem';
+  messageColor('#ffffff');
 });
